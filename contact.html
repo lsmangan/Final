@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Nirvala Resort</title>
+        <meta name="author" content="Linnea Mangan">
+        <meta name="description" content="website for the Nirvala resort">
+
+        <!-- FAVICON CODE  -->
+        
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/logo-3419889_1280.png" type="image/x-icon">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <!-- ADOBE FONTS IMPORT -->
+        
+
+        <!-- LINK TO EXTERNAL STYLESHEET -->
+   
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Nirvala</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="A bright green mountain valley forest with a river down the middle. Background filled with clouds and snowy mountains.">
+        </header>
+        <main>
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a *</p>
+            <img src="images/swiss-sunset.jpg" alt="reflecting large body of water along bottom of image. trees lined straight across. mountain range in background with a sunset.">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+            <label for="my-name">full name*</label>
+            <input type="text" name="my-name" id="my-name" required>
+            
+            <label for="my-address">email address*</label>
+            <input type="text" name="my-address" id="my-address" required>
+
+            <label for="my-phone">phone number*</label>
+            <input type="text" name="my-phone" id="my-phone" required>
+
+            <fieldset>
+                <legend>Preferred contact method</legend>
+                <input type="radio" name="pref-contact" id="pref-email" checked>
+                <label for="pref-email">email</label>
+
+                <input type="radio" name="pref-contact" id="pref-phone" checked>
+                <label for="pref-phone">phone</label>
+            </fieldset>
+
+            <label for="my-comments">comments*</label>
+            <textarea name="my-comments" id="my-comments"></textarea>
+
+            <input type="submit" name="my-submit" id="my-submit" value="submit">
+            </form>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - Nirvala</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
